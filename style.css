@@ -1,0 +1,32 @@
+
+
+body {
+    min-height: 100vh;
+    background: radial-gradient(black,rgb(80, 80, 129),black)
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9); /* Light white background with some transparency */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-control:not(select) {
+    padding: 1.5rem 0.5rem;
+}
+
+select.form-control {
+    height: 52px;
+    padding-left: 0.5rem;
+}
+
+.form-control::placeholder {
+    color: #ccc;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
